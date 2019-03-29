@@ -75,6 +75,7 @@ header ul{
     flex-direction: column;
     box-shadow: 0px 0px 5px rgba(0,0, 0, 0.3);
     transition: box-shadow 0.3s;
+
 }
 .card:hover{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
@@ -82,8 +83,13 @@ header ul{
 .card .card-image{
     height: 200px;
     overflow: hidden;
+    transform: scale(0.95);
+    box-shadow: 0px 0px 0px 5px rgba(0,0, 0, 0.1);
+    transition: 0.3s;
 }
-
+.card:hover .card-image{
+    transform: scale(1);
+}
 .card .card-image img{
     height: 100%;
     min-width: 100%;
@@ -103,7 +109,17 @@ header ul{
     padding: 15px;
     background-color: #d9a7c7;
     display: block;
+    border: 2px solid rgb(175, 194, 212);
+    transition-property: border, background-color,color;
+    transition-duration: 0.3s;
 }
 .call-to-action{
     margin-top: auto;
+    
+}
+
+.call-to-action a:hover{
+    border: 2px solid rgb(222, 229, 235);
+    background-color: rgb(175, 194, 212);
+    color:black;
 }
