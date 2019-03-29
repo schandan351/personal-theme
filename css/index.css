@@ -156,3 +156,19 @@ header ul{
     text-align: center;
     padding:20px;
 }
+
+@media screen and  (max-width:750px){
+    header{
+        flex-direction: column;
+    }
+    #logo{
+        order: -1;
+    }
+    #showcase aside{
+        display: none;
+    }
+    #intro{
+        margin: 0 auto;
+    }
+
+}
