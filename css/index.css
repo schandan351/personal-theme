@@ -61,6 +61,10 @@ header ul{
 
 /* starts of showcase  */
 
+#showcase{
+    display: flex;
+}
+
 .card-container{
     padding: 20px;
     display: flex;
@@ -75,6 +79,7 @@ header ul{
     flex-direction: column;
     box-shadow: 0px 0px 5px rgba(0,0, 0, 0.3);
     transition: box-shadow 0.3s;
+    flex-grow: 1;
 
 }
 .card:hover{
@@ -107,7 +112,7 @@ header ul{
 .call-to-action a{
     text-decoration: none;
     padding: 15px;
-    background-color: #d9a7c7;
+    background-color: rgb(145, 143, 143);
     display: block;
     border: 2px solid rgb(175, 194, 212);
     transition-property: border, background-color,color;
@@ -122,4 +127,32 @@ header ul{
     border: 2px solid rgb(222, 229, 235);
     background-color: rgb(175, 194, 212);
     color:black;
+}
+
+#showcase aside{
+    flex-basis: 400px;
+    padding: 20px;
+}
+#showcase aside h3{
+    font-size: 1.5em;
+    padding: 20px;
+}
+#showcase aside ul{
+    list-style: none;
+}
+
+#showcase aside a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+#showcase aside a:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+#footer{
+    background-color: rgb(145, 143, 143);
+    text-align: center;
+    padding:20px;
 }
