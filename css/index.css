@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color:rgb(145, 143, 143);
+    display: flex;
+    align-items: center;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+header ul{
+    list-style: none;
+}
+
+#main-links ul{
+    display: flex;
+
+}
+
+#social-links ul{
+    display: flex;
+}
+#logo{
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+/* intro section */
+#intro{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #d9a7c7 url(../images/apple-black-and-white-black-and-white-169573.jpg);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7) url(../images/apple-black-and-white-black-and-white-169573.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #d9a7c7)url(../images/apple-black-and-white-black-and-white-169573.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+}
+#intro h1{
+    padding: 20px;
+    font-size:2em;
+}
+#intro p{
+   width: 50%;
+   margin:0 auto;
+   padding: 10px;
+}
+
+/* end os intro section */
+
+/* starts of showcase  */
+
+.card-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis:250px;
+    max-width: 400px;
+    margin: 10px;
+    background-color: #fff;
+}
+.card .card-image{
+    height: 200px;
+    overflow: hidden;
+}
+
+.card .card-image img{
+    height: 100%;
+    min-width: 100%;
+}
+.card-title{
+    padding: 10px;
+}
+.card-desc{
+    padding: 10px;
+    padding-top: 0px;
+}
+.call-to-action a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #d9a7c7;
+    display: block;
+}
