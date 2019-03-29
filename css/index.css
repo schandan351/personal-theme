@@ -73,7 +73,11 @@ header ul{
     background-color: #fff;
     display:flex;
     flex-direction: column;
-    
+    box-shadow: 0px 0px 5px rgba(0,0, 0, 0.3);
+    transition: box-shadow 0.3s;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 .card .card-image{
     height: 200px;
@@ -90,7 +94,10 @@ header ul{
 .card-desc{
     padding: 10px;
     padding-top: 0px;
+    margin-bottom: 20px;
 }
+
+
 .call-to-action a{
     text-decoration: none;
     padding: 15px;
