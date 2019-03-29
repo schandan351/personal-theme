@@ -71,6 +71,9 @@ header ul{
     max-width: 400px;
     margin: 10px;
     background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    
 }
 .card .card-image{
     height: 200px;
@@ -93,4 +96,7 @@ header ul{
     padding: 15px;
     background-color: #d9a7c7;
     display: block;
+}
+.call-to-action{
+    margin-top: auto;
 }
